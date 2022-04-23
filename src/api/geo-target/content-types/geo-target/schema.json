@@ -13,13 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "x": {
-      "type": "float"
+      "type": "float",
+      "required": true
     },
     "y": {
-      "type": "float"
+      "type": "float",
+      "required": true
     },
     "Desription": {
       "type": "richtext"
@@ -40,7 +43,12 @@
       "enum": [
         "info",
         "planning"
-      ]
+      ],
+      "required": true,
+      "default": "info"
+    },
+    "FeedbackUrl": {
+      "type": "string"
     }
   }
 }
