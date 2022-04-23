@@ -17,6 +17,12 @@
     },
     "Title": {
       "type": "string"
+    },
+    "x": {
+      "type": "float"
+    },
+    "y": {
+      "type": "float"
     }
   }
 }
