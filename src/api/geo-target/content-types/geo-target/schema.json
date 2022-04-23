@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "geo_targets",
+  "info": {
+    "singularName": "geo-target",
+    "pluralName": "geo-targets",
+    "displayName": "GeoTarget"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Desription": {
+      "type": "json"
+    }
+  }
+}
