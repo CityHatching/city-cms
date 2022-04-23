@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Desription": {
-      "type": "json"
-    },
     "Title": {
       "type": "string"
     },
@@ -23,6 +20,9 @@
     },
     "y": {
       "type": "float"
+    },
+    "Desription": {
+      "type": "richtext"
     }
   }
 }
